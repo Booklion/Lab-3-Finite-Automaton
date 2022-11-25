@@ -11,6 +11,7 @@ BONUS : Consider the input data corresponding to the lexical tokens of your prog
 
 The .in file contains the transitions of the finite automaton. Here are some rules on how to write it:
 
+* < file > ::= < transition >
 * < transition > ::= (< statement >, < alphabet >)->< statement >
 * < statement > ::= < initialStatement > | < finalStatement > | < basicStatement >
 * < initialStatement > ::= {q< digit >}
